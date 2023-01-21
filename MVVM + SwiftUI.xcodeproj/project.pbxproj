@@ -44,6 +44,7 @@
 		5D0C63FC297BD98D0048C358 /* MVVM + SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM + SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0C6400297BD98D0048C358 /* MVVM___SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVVM___SwiftUIUITests.swift"; sourceTree = "<group>"; };
 		5D0C6402297BD98D0048C358 /* MVVM___SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVVM___SwiftUIUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		5D0C6411297BDEF20048C358 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		5D0C63D9297BD98A0048C358 = {
 			isa = PBXGroup;
 			children = (
+				5D0C6411297BDEF20048C358 /* README.md */,
 				5D0C63E4297BD98A0048C358 /* MVVM + SwiftUI */,
 				5D0C63F5297BD98C0048C358 /* MVVM + SwiftUITests */,
 				5D0C63FF297BD98D0048C358 /* MVVM + SwiftUIUITests */,
@@ -96,7 +98,7 @@
 			children = (
 				5D0C63E5297BD98A0048C358 /* MVVM___SwiftUIApp.swift */,
 				5D0C63E7297BD98A0048C358 /* ContentView.swift */,
-				5D0C63E9297BD98C0048C358 /* Assets.xcassets */,
+				5D0C640F297BDA170048C358 /* Resources */,
 				5D0C63EB297BD98C0048C358 /* Preview Content */,
 			);
 			path = "MVVM + SwiftUI";
@@ -125,6 +127,22 @@
 				5D0C6402297BD98D0048C358 /* MVVM___SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "MVVM + SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		5D0C640F297BDA170048C358 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C6410297BDA1C0048C358 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D0C6410297BDA1C0048C358 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C63E9297BD98C0048C358 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +443,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +473,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,7 +496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.azizbekasadov.MVVM---SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.azizbekasadov.MVVM---SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +535,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.azizbekasadov.MVVM---SwiftUIUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,6 +554,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.azizbekasadov.MVVM---SwiftUIUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,7 +575,7 @@
 				5D0C6405297BD98D0048C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		5D0C6406297BD98D0048C358 /* Build configuration list for PBXNativeTarget "MVVM + SwiftUI" */ = {
 			isa = XCConfigurationList;
@@ -562,7 +584,7 @@
 				5D0C6408297BD98D0048C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		5D0C6409297BD98D0048C358 /* Build configuration list for PBXNativeTarget "MVVM + SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,7 +593,7 @@
 				5D0C640B297BD98D0048C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		5D0C640C297BD98D0048C358 /* Build configuration list for PBXNativeTarget "MVVM + SwiftUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,7 +602,7 @@
 				5D0C640E297BD98D0048C358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
